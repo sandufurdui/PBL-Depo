@@ -1,0 +1,120 @@
+.imageSection {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.image {
+	height: 90vh;
+	width: 62vw;
+}
+
+.infoSection {
+	background-color: rgba(250, 235, 215, 0.2);
+	width: 90%;
+	margin: auto;
+	display: flex;
+	padding: 2rem;
+	border-radius: 1rem;
+	justify-content: space-between;
+}
+
+.pblInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(127, 255, 212, 1);
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 5px;
+}
+
+.startGuide {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(150, 172, 236, 1);
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-left: 5px;
+}
+
+.topicsSection {
+	width: 90%;
+	margin: 3rem auto;
+	background-color: rgba(250, 235, 215, 0.2);
+	border-radius: 1rem;
+}
+
+.topics {
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem;
+}
+
+.topic {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	border-radius: 1rem;
+}
+
+.mentorsSection {
+	width: 90%;
+	margin: 3rem auto;
+	background-color: rgba(250, 235, 215, 0.2);
+	padding: 1rem;
+	border-radius: 1rem;
+}
+
+.mentorsNavLink {
+	/* margin-left: 10px; */
+	font-weight: bold !important;
+	color: black;
+}
+
+.mentorsNavLink:hover {
+	color: white;
+}
+
+.tabContent {
+	border-bottom: 1px solid #dee2e6;
+	border-left: 1px solid #dee2e6;
+	border-right: 1px solid #dee2e6;
+	padding: 0.5rem;
+	border-bottom-left-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+}
+
+.mentorsDetails {
+	display: flex;
+	flex-direction: column;
+}
+
+.socialIcons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+}
+
+.icon {
+	background-color: rgba(216, 112, 147, 0.5);
+	border: 2px solid rgba(255, 255, 255, 0);
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	margin: 0.4rem 0.5rem;
+}
+
+.icon:hover {
+	background-color: rgba(223, 75, 124, 0.5);
+	border: 2px solid rgba(255, 255, 255, 1);
+	cursor: pointer;
+}
